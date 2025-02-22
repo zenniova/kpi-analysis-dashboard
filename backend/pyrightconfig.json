@@ -1,0 +1,22 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        ".venv",
+        "**/node_modules",
+        "**/__pycache__"
+    ],
+    "ignore": [
+        "**/.git"
+    ],
+    "defineConstant": {
+        "DEBUG": true
+    },
+    "venvPath": ".",
+    "venv": ".venv",
+    "reportMissingImports": false,
+    "reportMissingModuleSource": false,
+    "pythonVersion": "3.9",
+    "typeCheckingMode": "basic"
+} 
